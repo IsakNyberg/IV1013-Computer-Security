@@ -1,0 +1,9 @@
+How to use SampleDigest
+1 Compile program with "javac SampleDigest.java"
+2 Run program with "java SampleDigest.java <match bytes> <infile>"
+3 The program will find a hash that matches the first number of bytes, and print them out.
+
+Match byte is the number of bytes that you want to match the hash with. For question 3 this was 3 byte (24 bit). Infile is the file whose content will be read and matched up to the number of specified bytes. Creating a new file containing only the text "IV1013 security" is an example of this. (Note to NOT include a new line character at the end of the file).
+
+Example command:
+java SampleDigest 3 IV1013_security.txt

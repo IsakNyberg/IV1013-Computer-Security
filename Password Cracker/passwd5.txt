@@ -1,0 +1,17 @@
+geoffrey:ndyxqwdZNkv1.:501:501:Geoffrey T. Spaulding:/home/geoffrey:/bin/bash
+harry:qiQGyP7ONNtYE:502:502:Harry Binelli:/home/harry:/bin/bash
+lionel:qFd3iogKKd5GA:503:503:Lionel Q. Devereaux:/home/lionel:/bin/dash
+peter:SVxf1lVNST3OY:504:504:Peter Minuit:/home/peter:/bin/bash
+rusty:8KlPL4PLy4pzE:505:505:Rusty Panello:/home/rusty:/bin/bash
+cheever:wDC7IjbDF/ido:506:506:J. Cheever Loophole:/home/cheever:/bin/bash
+george:DefWo0fAXh1gs:508:508:George Schmidlap:/home/george:/bin/bash
+antonio:4jw8mZXy5YTnU:509:509:Antonio Pirelli:/home/antonio:/bin/zsh
+faker:BWPqKhgePgm0o:510:510:Faker Englund:/home/faker:/bin/bash
+benjamin:sPN97e8fGkJ5Y:511:511:Benjamin Franklin Linn:/home/benjamin:/bin/bash
+hugo:7AeNSaFyZ0fKs:512:512:Hugo Z. Hackenbush:/home/hugo:/bin/zsh
+emmanuel:ZPKdKkMYdRu02:514:514:Emmanuel Ravelli:/home/emmanuel:/bin/bash
+bob:KGPBzxgFPstEg:515:515:Bob Roland:/home/bob:/bin/bash
+rosa:1p/fszWxtpFxg:516:516:Rosa Castaldi:/home/rosa:/bin/bash
+sammy:5PJc8MIOQjios:517:517:Sammy Brown:/home/sammy:/bin/zsh
+wolf:dsE1vei2vGEA.:519:519:Wolf J. Flywheel:/home/wolf:/bin/zsh
+gordon:mCu0SwkC9lYUc:520:520:Gordon Miller:/home/gordon:/bin/bash

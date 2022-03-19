@@ -1,0 +1,30 @@
+The two files can be compiled with:
+    javac Stendec.java
+    javac Stenenc.java
+
+Stenenc is short for Stenography encode. This file takes an input image, an input data file, 
+a name for the output image file and an optional argument called 'depth' which is the number
+of bits that will be changed of each color channel. This value is set to 1 by default but 
+can take any value between 1 and 8. The higher the value the more space there is for data in
+the image but it also means the image is altered more. Therefore the depth should be set to
+be as low as possible while still giving enough space for the data to be stored. When the 
+depth is set to a value greater than 1 the data file should be a multiple in size of the 
+depth. If that is not the case a few random bytes are added as padding until that criteria is
+is fulfilled. This padding is NOT removed when retrieving the message.(You can always use 
+depth 1 to avoid padding).
+
+Example use of Stenenc:
+    java Stenenc --data=message_in.txt --image=dog_image1.png --output=image_with_message.png
+
+Stendec is short for Stenography decode. This file takes an input image and and output name
+for the data found in the image. If it does not find the signature left by Stenenc in the image
+file it will exit with an error message. The image file will have the depth encoded in it so it
+does not have to be specified. Images can be hidden inside images.
+
+Example use of Stenenc:
+    java Stendec --image=image_with_message.png --output=message_out.txt
+
+    java Stendec --image=dog_image2.png --output=Shakespeare.txt
+
+    java Stendec --image=dog_image3.png --output=dice.png
+    java Stendec --image=dice.png --output=secret_message.txt
